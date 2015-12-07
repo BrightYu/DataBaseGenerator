@@ -5,7 +5,9 @@ import de.greenrobot.daogenerator.Entity;
 import de.greenrobot.daogenerator.Schema;
 
 public class DataBaseGenerator {
-
+    /**
+     * 生成文件的目录
+     */
     private static final String OUT_PATH = "DataBaseGenerator/src-gen";
 
     public static void main(String[] args) throws Exception {
