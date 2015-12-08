@@ -2,15 +2,15 @@
 GreenDao 生成的基类项目！
 
 # 步骤
-## 1. 下载本项目 ##
+### 1. 下载本项目 ##
 git clone git@github.com:BrightYu/DataBaseGenerator.git
-## 2. 配置生成文件路径  ##
-### 修改文件：
+### 2. 配置生成文件路径  ##
+#### 修改文件：
 &nbsp; &nbsp; &nbsp; &nbsp; DataBaseGenerator\src\com\bright\DataBaseGenerator.java  
-### 修改方法:
+#### 修改方法:
 &nbsp; &nbsp; &nbsp; &nbsp; private static final String OUT_PATH = "DataBaseGenerator/src-gen";  
 &nbsp; &nbsp; &nbsp; &nbsp; 修改为为自己想要的目录
-## 3. 配置要生成的表 ##
+### 3. 配置要生成的表 ##
      /**
      * @param schema
      */
@@ -22,10 +22,12 @@ git clone git@github.com:BrightYu/DataBaseGenerator.git
         note.addIntProperty("height");
         note.addStringProperty("introduction");
     }
-## 4. 编译工程生成文件 ##
-
-
-
+### 4. 编译工程生成文件 ##
+- MAKE工程
+![image](https://github.com/BrightYu/DataBaseGenerator/raw/master/image/image_1.png)
+- RUN工程
+![image](https://github.com/BrightYu/DataBaseGenerator/raw/master/image/image_2.png)
+![image](https://github.com/BrightYu/DataBaseGenerator/raw/master/image/image_3.png)
 
 License
 =======
@@ -43,3 +45,4 @@ License
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+6
